@@ -43,7 +43,7 @@ CREATE TABLE `Artifacts` (
 
 CREATE TABLE `Floors` (
   `Floor number` int(11) NOT NULL,
-  `Interestion features` int(11) NOT NULL
+  `Interestion features` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
